@@ -51,7 +51,7 @@
       </div>
       <div class="operation">
         <el-button @click="send" type="success" size="small" round>发送</el-button>
-        <el-button @click="clearInput" type="danger" size="small" round>清空</el-button>
+        <el-button @click="send" type="danger" size="small" round>清空</el-button>
       </div>
       <div style="display: none" contenteditable="true" class="textarea" @input="test">
 
